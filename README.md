@@ -38,9 +38,16 @@
 ---
 
 ## Запуск
+  
+Клонируйте репозиторий:
 
 ```bash
 
+git clone https://github.com/Mukam21/zip-archive_Golang.git
+
+Перейдите в папку проекта и запустите сервер:
+
+cd zip-archive_Golang
 go run cmd/main.go
 
 
