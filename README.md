@@ -41,7 +41,7 @@
 
 ```bash
 
-                go run cmd/main.go
+      go run cmd/main.go
 
 
 API Эндпоинты:
@@ -50,7 +50,7 @@ API Эндпоинты:
 
 POST	        /task	                Создать новую задачу
 
-POST	        /task/{id}/url	        Добавить файл по ссылке
+POST	        /task/{id}/url	      Добавить файл по ссылке
 
-GET	            /task/{id}/status	    Получить статус + архив
+GET	          /task/{id}/status	    Получить статус + архив
 
